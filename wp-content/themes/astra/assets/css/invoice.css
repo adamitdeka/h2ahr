@@ -1,0 +1,22 @@
+#mainContainer{
+    max-width: 500px;
+    display: flex;
+    justify-content: center;
+    margin: 1em auto;
+    border: 1px solid grey;
+}
+.listColumn{
+    display:flex;
+    flex:1 0 0;
+    flex-flow: column;
+}
+.listHeader{
+    background-color: #393a56;
+    color: white;
+    font-weight: bold;
+}
+.listItem{
+    width: 100%;
+ padding: 1em;
+ text-align: center;
+}
